@@ -12,20 +12,120 @@
         <link href="./assets/css/menu/menu-list.css" rel="stylesheet" />
         <link href="./assets/css/menu/menu-item.css" rel="stylesheet" />
         <link href="./assets/css/menu/menu-link.css" rel="stylesheet" />
+        <link href="./assets/css/banner/banner.css" rel="stylesheet" />
+        <link href="./assets/css/banner/banner-image.css" rel="stylesheet" />
+        <link href="./assets/css/banner/banner-title.css" rel="stylesheet" />
+        <link href="./assets/css/welcome/welcome.css" rel="stylesheet" />
+        <link href="./assets/css/welcome/welcome-description.css" rel="stylesheet" />
+        <link href="./assets/css/welcome/welcome-title.css" rel="stylesheet" />
+        <link href="./assets/css/recipes.css" rel="stylesheet" />
+        <link href="./assets/css/recipe/recipe.css" rel="stylesheet" />
+        <link href="./assets/css/recipe/recipe-description.css" rel="stylesheet" />
+        <link href="./assets/css/recipe/recipe-title.css" rel="stylesheet" />
+        <link href="./assets/css/recipe/recipe-button.css" rel="stylesheet" />
+        <link href="./assets/css/recipe/recipe-image.css" rel="stylesheet" />
+        <link href="./assets/css/recipe/recipe-content.css" rel="stylesheet" />
+        <link href="./assets/css/about/about.css" rel="stylesheet" />
+        <link href="./assets/css/about/about-title.css" rel="stylesheet" />
+        <link href="./assets/css/about/about-description.css" rel="stylesheet" />
+        <link href="./assets/css/people.css" rel="stylesheet" />
+        <link href="./assets/css/person/person.css" rel="stylesheet" />
+        <link href="./assets/css/person/person-image.css" rel="stylesheet" />
+        <link href="./assets/css/person/person-name.css" rel="stylesheet" />
+        <link href="./assets/css/person/person-role.css" rel="stylesheet" />
     </head>
     <body>
         <body>
             <header class="header">
                 <img class="logo" alt="Fruit & Fruit" src="./assets/img/logo.jpg"/>
                 <nav class="menu">
-                    <ul class="menu-list">
-                        <li class="menu-item"><a class="menu-link active" href=#>Home</a></li>
-                        <li class="menu-item"><a class="menu-link" href=#>Recipes</a></li>
-                        <li class="menu-item"><a class="menu-link" href=#>About</a></li>
-                        <li class="menu-item"><a class="menu-link" href=#>Community</a></li>
+                    <ul class="menu__list">
+                        <li class="menu__item"><a class="menu__link active" href=#>Home</a></li>
+                        <li class="menu__item"><a class="menu__link" href=#>Recipes</a></li>
+                        <li class="menu__item"><a class="menu__link" href=#>About</a></li>
+                        <li class="menu__item"><a class="menu__link" href=#>Community</a></li>
                     </ul>
                 </nav>
             </header>
+            <section class="banner">
+                <div class="banner__image"></div>
+                <h2 class="banner__title">Enjoy your food better</h2>
+            </section>
+            <section class="welcome">
+                <h2 class="welcome__title">Recipes for you</h2>
+                <p class="welcome__description">Our recipes help you enjoy food better, save money and save time</p>
+            </section>
+            <section class="recipes">
+                <div class="recipe">
+                    <img alt="Avocado bowl" class="recipe__image" src="./assets/img/recipes/avocado-bowl.jpg" />
+                    <div class="recipe__content">
+                        <h4 class="recipe__title">Avocado bowl</h4>
+                        <p class="recipe__description">Refreshing recipe with vitamins for your breakfast!</p>
+                        <button class="recipe__button">Go to recipe</button>
+                    </div>
+                </div>
+                <div class="recipe">
+                    <img alt="Kiwi salad" class="recipe__image" src="./assets/img/recipes/kiwi-salad.jpg" />
+                    <div class="recipe__content">
+                        <h4 class="recipe__title">Kiwi salad</h4>
+                        <p class="recipe__description">Refreshing recipe with vitamins for your breakfast!</p>
+                        <button class="recipe__button">Go to recipe</button>
+                    </div>
+                </div>
+                <div class="recipe">
+                    <img alt="Vegetable mix" class="recipe__image" src="./assets/img/recipes/vegetable-mix.jpg" />
+                    <div class="recipe__content">
+                        <h4 class="recipe__title">Vegetable mix</h4>
+                        <p class="recipe__description">Refreshing recipe with vitamins for your breakfast!</p>
+                        <button class="recipe__button">Go to recipe</button>
+                    </div>
+                </div>
+                <div class="recipe">
+                    <img alt="Chillies Salad" class="recipe__image" src="./assets/img/recipes/recipe-chilli.jpg" />
+                    <div class="recipe__content">
+                        <h4 class="recipe__title">Chillies Salad</h4>
+                        <p class="recipe__description">Refreshing recipe with vitamins for your breakfast!</p>
+                        <button class="recipe__button">Go to recipe</button>
+                    </div>
+                </div>
+                <div class="recipe">
+                    <img alt="Oriental dish" class="recipe__image" src="./assets/img/recipes/recipe-oriental.jpg" />
+                    <div class="recipe__content">
+                        <h4 class="recipe__title">Oriental dish</h4>
+                        <p class="recipe__description">Refreshing recipe with vitamins for your breakfast!</p>
+                        <button class="recipe__button">Go to recipe</button>
+                    </div>
+                </div>
+                <div class="recipe">
+                    <img alt="Roasted beets" class="recipe__image" src="./assets/img/recipes/roasted-beet.jpg" />
+                    <div class="recipe__content">
+                        <h4 class="recipe__title">Roasted beets</h4>
+                        <p class="recipe__description">Refreshing recipe with vitamins for your breakfast!</p>
+                        <button class="recipe__button">Go to recipe</button>
+                    </div>
+                </div>
+            </section>
+            <section class="about">
+                <h3 class="about__title">About</h3>
+                <p class="about__description">Meet the people behind the initiative.</p>
+                <div class="people">
+                    <div class="person">
+                        <div class="person__image person__image--julia"></div>
+                        <span class="person__name">Julia</span>
+                        <span class="person__role">Content</span>
+                    </div>
+                    <div class="person">
+                        <div class="person__image person__image--karen"></div>
+                        <span class="person__name">Karen</span>
+                        <span class="person__role">Chef</span>
+                    </div>
+                    <div class="person">
+                        <div class="person__image person__image--tina"></div>
+                        <span class="person__name">Tina</span>
+                        <span class="person__role">Producer</span>
+                    </div>
+                </div>
+            </section>
         </body>
     </body>
 </html>
